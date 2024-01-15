@@ -5,4 +5,4 @@ from django.http import HttpResponse
 
 
 def home_view(request):
-    return HttpResponse("Testing")
+    return render(request, "restaurant-website/index.html")
